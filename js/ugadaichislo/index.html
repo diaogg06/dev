@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style/style.css">
+  <title>Числовая угадайка</title>
+</head>
+<body class = "page">
+  <div class="container">
+    <div class="wrapper">
+
+      <h1 class="title">Числовая угадайка</h1>
+      <p class="description">я загадал число от 1 до 10, ты должен  его угадать</p>
+
+      <div class="chat_block" id="chat-block">
+      </div>
+
+      <div class="block_actions">
+        <label><input type="number" class="input_num" placeholder="введи число"></label>
+        <button onclick="sendAnswer()" class="send_num">отправить</button>
+      </div>
+
+
+    </div>
+  </div>
+  
+  <script src="script/main.js" type="module"></script>
+</body>
+</html>
